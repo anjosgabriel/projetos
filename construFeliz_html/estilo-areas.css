@@ -1,0 +1,115 @@
+/*Título*/
+.titulo {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 34px;
+    font-weight: bold;
+    color: #333;
+    text-transform: uppercase;
+    text-align: center;
+    /* Centralizar o texto */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    letter-spacing: 2px;
+    padding: 10px;
+    margin: 20px 0;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/*Estilo para catalogo de produtos - Corpo*/
+
+.subtitulo {
+    font-family: "Arial", sans-serif;
+    font-size: 32px;
+    color: red;
+    text-align: center;
+    margin-bottom: 20px;
+    padding-top: -10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    text-align: center;
+}
+
+.product {
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+    margin: 20px;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+h2 {
+    margin-top: 10px;
+}
+
+.price {
+    font-weight: bold;
+    color: green;
+}
+
+/* Estilo básico para o link */
+.voltaHome a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FBD609;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+/* Efeito de hover (ao passar o mouse) */
+.voltaHome a:hover {
+    background-color: red;
+    transform: scale(1.05);
+}
+
+/* Efeito de sombra ao clicar no link */
+.voltaHome a:active {
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo do texto dentro do link */
+.voltaHome a {
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: initial;
+}
+
+/*Barra de rolagem */
+
+.rolagem {
+    display: flex;
+    overflow-x: scroll;
+    white-space: nowrap;
+
+}
+
+.product {
+    flex: 0 0 300px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product h2 {
+    font-size: 1.2em;
+    margin: 5px 0;
+}
+
+.product p.price {
+    font-weight: bold;
+}

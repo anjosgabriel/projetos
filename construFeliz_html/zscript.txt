@@ -1,0 +1,7 @@
+Conteudos do Site Constru Feliz
+
+Se basear em estudos anteriores, modulo desenvolvedor web, curso em video e chat gpt
+
+Home(index): Visão Geral do site: banner + menu mostrando os setores(Tintas, eletrica, hidraulica, ferramentas, limpeza) + corpo da pagina index, usar as imagens de cada setor que conteém no menu, usando JavaScipt para ampliar a imagem quando passar o mouse em cima (aprendi no curso em vídeo) + rodapé (padrão para todas as paginas do site) pretendo colocar as informaçoes de contato com blank + copyright, direitos reservados, tudo bem detalhado com ícones e etc.
+
+(por enquanto só  vou focar no index, depois irei prosseguir para as demais páginas)
